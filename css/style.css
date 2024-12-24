@@ -1,0 +1,404 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.fillerBox {
+	width: 100%;
+	height: 64px;
+}
+
+.fillerDiv {
+	width: 100%;
+	height: 368px;
+}
+
+main {
+	width: 100%;
+	height: 100%;
+}
+
+.mainDiv {
+	max-width: 1694px;
+	width: 100%;
+	height: 2108px;
+	background-color: #E2F7FF;
+	margin: 0 auto;
+	padding: 96px;
+}
+
+.fullContent {
+	max-width: 1412px;
+	width: 100%;
+	height: 1916px;
+	margin: 0 auto;
+	padding-bottom: 96px;
+}
+
+.insideMain {
+	max-width: 1280px;
+	width: 100%;
+	height: 1820px;
+	margin: 0 auto;
+	padding: 0px 32px;
+}
+
+.imageDiv {
+	max-width: 1216px;
+	width: 100%;
+	height: 626px;
+	background-image: url(../images/chat.svg);
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+
+.uxBox {
+	max-width: 1216px;
+	width: 100%;
+	height: 158px;
+	margin-bottom: 64px;
+}
+
+header p {
+	color: #6941C6;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+
+header div {
+	display: inline-block;
+	max-width: 24px;
+	width: 100%;
+	height: 28px;
+	vertical-align: middle;
+	background-image: url(../images/arrow.svg);
+}
+
+header h1 {
+	color: #181D27;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 38px;
+	margin-bottom: 8px;
+	margin-right: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 1168px;
+	width: 100%;
+	height: 38px;
+}
+
+header span {
+	color: #535862;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 24px;
+	display: block;
+}
+
+header a {
+	display: inline-block;
+	padding: 8px 12px;
+	background-color: #F9F5FF;
+	border-radius: 99px;
+	border: 1px solid #E9D7FE;
+	color: #6941C6;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	margin-right: 8px;
+}
+
+#nextA {
+	display: inline-block;
+	padding: 8px 12px;
+	background-color: #EEF4FF;
+	border-radius: 99px;
+	border: 1px solid #C7D7FE;
+	color: #3538CD;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	margin-right: 8px;
+}
+
+#nextLink {
+	display: inline-block;
+	padding: 8px 12px;
+	background-color: #FDF2FA;
+	border-radius: 99px;
+	border: 1px solid #FCCEEE;
+	color: #C11574;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	margin-right: 8px;
+}
+
+.middleContents {
+	max-width: 1216px;
+	width: 100%;
+	height: 952px;
+}
+
+.topBox {
+	max-width: 1216px;
+	width: 100%;
+	height: 436px;
+}
+
+.bottomBox {
+	max-width: 1216px;
+	width: 100%;
+	height: 436px;
+	display: inline-block;
+	margin-top: 48px;
+}
+
+.topOne {
+	max-width: 384px;
+	width: 100%;
+	height: 436px;
+	display: inline-block;
+	margin-right: 28px;
+}
+
+.imageTop {
+	max-width: 384px;
+	width: 100%;
+	height: 240px;
+	background-image: url(../images/finance.svg);
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+
+.imageTwo {
+	max-width: 384px;
+	width: 100%;
+	height: 240px;
+	background-image: url(../images/fog.svg);
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+
+.imageOne {
+	max-width: 384px;
+	width: 100%;
+	height: 240px;
+	background-image: url(../images/chart.svg);
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+
+.imageThree {
+	max-width: 384px;
+	width: 100%;
+	height: 240px;
+	background-image: url(../images/person.svg);
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+
+
+.imageFour {
+	max-width: 384px;
+	width: 100%;
+	height: 240px;
+	background-image: url(../images/Image.svg);
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+
+
+.imageFive {
+	max-width: 384px;
+	width: 100%;
+	height: 240px;
+	background-image: url(../images/zap.svg);
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+
+
+
+.topOne p {
+	color: #6941C6;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+
+
+.topOne h2 {
+	color: #181D27;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	margin-bottom: 8px;
+	margin-right: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 330px;
+	width: 100%;
+	height: 38px;
+}
+
+.topLogo {
+	display: inline-block;
+	max-width: 24px;
+	width: 100%;
+	height: 28px;
+	background-image: url(../images/arrow.svg);
+}
+
+.logoWrap {
+	max-width: 384px;
+	width: 100%;
+	height: 32px;
+}
+
+.topOne span {
+	color: #535862;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 24px;
+	display: block;
+}
+
+.topOne a {
+	display: inline-block;
+	padding: 8px 12px;
+	background-color: #F0F9FF;
+	border-radius: 99px;
+	border: 1px solid #B9E6FE;
+	color: #026AA2;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	margin-right: 8px;
+}
+
+#newLink {
+	display: inline-block;
+	padding: 8px 12px;
+	background-color: #FDF2FA;
+	border-radius: 99px;
+	border: 1px solid #FCCEEE;
+	color: #C11574;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	margin-right: 8px;
+}
+
+#newLinkA {
+	display: inline-block;
+	padding: 8px 12px;
+	background-color: #FDF2FA;
+	border-radius: 99px;
+	border: 1px solid #FCCEEE;
+	color: #C11574;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	margin-right: 8px;
+}
+
+#newLinkNew {
+	display: inline-block;
+	padding: 8px 12px;
+	background-color: #FDF2FA;
+	border-radius: 99px;
+	border: 1px solid #FCCEEE;
+	color: #C11574;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	margin-right: 8px;
+}
+
+#noMargin {
+	margin: 0;
+}
+
+#noMarginOne {
+	margin: 0;
+}
+
+#fixP {
+	margin-top: 36px;
+	color: #535862;
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+}
+
+.fixLinked {
+	vertical-align: -30px;
+	margin-top: 10px;
+}
+
+#colorOne {
+	background-color: #ECFDF3;
+	border: 1px solid #ABEFC6;
+	color: #067647;
+}
+
+#colorTwo {
+	background-color: #F9F5FF;
+	border: 1px solid #E9D7FE;
+	color: #6941C6;
+}
+
+#colorThree {
+	background-color: #F8F9FC;
+	border: 1px solid #D5D9EB;
+	color: #363F72;
+}
+
+#colorFour {
+	background-color: #EEF4FF;
+	border: 1px solid #C7D7FE;
+	color: #3538CD;
+}
+
+#colorFive {
+	background-color: #FEF6EE;
+	border: 1px solid #F9DBAF;
+	color: #B93815;
+}
+
+#colorSame {
+	background-color: #F9F5FF;
+	border: 1px solid #E9D7FE;
+	color: #6941C6;
+}
+#colorSameOne {
+	background-color: #F9F5FF;
+	border: 1px solid #E9D7FE;
+	color: #6941C6;
+}
+
+
+#freshColor {
+	background-color: #EEF4FF;
+	border: 1px solid #C7D7FE;
+	color: #3538CD;
+}
+
+
+#freshColorOne {
+	background-color: #EEF4FF;
+	border: 1px solid #C7D7FE;
+	color: #3538CD;
+}
